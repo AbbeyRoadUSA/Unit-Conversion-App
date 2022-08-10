@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Coversion</title>
+</head>
+
+<body>
+    <main class="main-container">
+
+        <div class="title-container">
+            <h1 class="title">Metric/Imperial Unit Coversion</h1>
+            <input type="text" id="input">
+            <button id="convert-btn">Convert</button>
+        </div>
+
+        <div class="calculation-section">
+            <div class="length-container">
+                <p class="length-text">Length (Meter/Feet)</p>
+                <p id="length-calc"></p>
+            </div>
+
+            <div class="volume-container">
+                <p class="volume-text">Volume (Liters/Gallons)</p>
+                <p id="volume-calc"></p>
+            </div>
+
+            <div class="mass-container">
+                <p class="mass-text">Mass (Kilograms/Pounds)</p>
+                <p id="mass-calc"></p>
+            </div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
